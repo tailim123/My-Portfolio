@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+}
+@font-face{
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather/Merriweather-Black.ttf);
+}
+body{
+    background-image: url(../pics/lamp_electricity_minimalism_128251_6000x4000.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#profile{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.heading{
+    padding: 16%;
+    background: linear-gradient(to left bottom,rgba(0, 162, 255, 0.568),rgba(5, 21, 58, 0.452)),url(../pics/8727.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    line-height: 10px;
+}
+#intro-head{
+    padding: 30px;
+    color: antiquewhite;
+    stroke-width: 2px;
+    font-family: "Montserrat";
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+#sub-head{
+    padding: 30px;
+    padding-top: 10px;
+    color: rgb(211, 193, 193);
+    stroke-width: 2px;
+    font-family: "Merriweather";    
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    line-height: 10px;
+}
+#name{
+    text-align: center;
+}
+.intro{
+    text-align: center;
+}
+#intro1{
+    padding: 20px;
+    padding-bottom: 10px;
+    color: yellowgreen;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 40px;
+}
+#intro2{
+    padding-top: 5px;
+    padding-bottom: 150px;
+    font-family: "Merriweather";
+    text-align: center;
+    font-size: 18px;
+    color: yellowgreen;
+}
+#intro p{
+    line-height: 20px;
+}
+.intro p span{
+    display: block;
+}
+.myskills{
+    padding: 20px;
+    color: yellowgreen;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 20px;
+}
+.myskills p{
+    font-family: "Merriweather";
+    font-size: 18px;
+}
+.myskills p span{
+    display: block;
+}
+#skill{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+#muscle{
+    padding: 20px;
+    text-align: center;
+}
+#str{
+    padding: 20px;
+    line-height: 5px;
+    color:yellowgreen;
+    font-family: "Montserrat";
+    font-size: 25px;
+    text-align: center;
+}
+#str_p{
+    padding: 5px;
+    padding-bottom: 50px;
+    font-family: "Merriweather";
+    font-size: 18px;
+}
+#str_p span{
+    display: block;
+}
+#gaming{
+    padding: 20px;
+    padding-top: 10px;
+    color: yellowgreen;
+    font-family: "Montserrat";
+    font-size: 25px;
+    text-align: center;
+}
+#console{
+    image-resolution: ;
+    text-align: center;
+}
+#playing{
+    padding-bottom: 60px;
+    font-family: "Merriweather";
+    font-size: 18px;
+}
+.foot{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    width: 100%;
+    margin: auto;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    background: linear-gradient(to left bottom,rgba(0, 162, 255, 0.568),rgba(5, 21, 58, 0.452)),url(../pics/8727.jpg);
+}
+.foot img{
+    height: 40px;
+    width: 40px;
+    padding: 15px;
+}
+.foot span{
+    display: block;
+    line-height: 25px;
+}
+#all{
+    font-family: "Merriweather";
+    padding-top: 5px;
+    font-size: 12px;
+}
+button{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: yellowgreen;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border: 2px solid 429BC1;
+    font-family: "Merriweather";
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: .6s;
+    overflow: hidden;
+    
+}
+button:hover{
+    background: linear-gradient(to left bottom,rgb(30, 255, 0),rgb(0, 47, 255));
+    cursor: pointer;
+}
+
+button:hover::before{
+    transform: translate(150px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+button:hover::after{
+    transform: translate(150px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
